@@ -1,0 +1,43 @@
+body{
+    background-color: wheat;
+}
+
+.container{
+    width: 700px;
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    border: 10px solid slategrey;
+
+    display: -webkit-flex; /* SAFARI Y CHROME */
+    display: -ms-flexbox; /* IE */
+    display: flex; /* que sea una caja de linea flexible */
+    justify-content: center;
+
+
+
+    /* flex-direction: row | column | row-reverse | column-reverse ; */
+
+    /* flex-wrap: no-wrap | wrap | wrap-reverse; */
+
+    /* justify-content: flex-end | flex-start | center | space-around | space-between ;*/
+
+    /* align-items: flex-start | flex-end | center | stretch: 100% del contenedor | baseline; */
+
+    /* align-content: flex-start | flex-end | center | stretch | space-between | space-around ;*/
+
+    /* justify-content: center; */
+
+    /* align-items: center GRUPOS DE ELEMENTOS DE UNA SOLA FILA */  
+
+    /* align-content: space-between; /* GRUPOS DE ELEMENTOS DE MAS FILAS - wrap */
+}
+
+.cajita{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    height: 50px;
+}

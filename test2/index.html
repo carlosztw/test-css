@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 6</title>
+    <link rel="stylesheet" href="C:\Users\Carlos\OneDrive - Fundacion Instituto Profesional Duoc UC\Semestre 3\Programación Web\HTML\HTML PW S3\css\style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="../img/logo.png" alt="">
+
+            </div>
+            <nav> 
+                <li><a href="">Inicio</a></li>
+                <li><a href="#sobremi">Sobre mi</a></li>
+                <li><a href="#perritos">Perritos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </nav>
+        </header>
+
+        <section class="banner">
+            <div class="banner-img"></div>
+            <h1>Me llamo</h1>
+            <h2>El Firulais del 8</h2>
+            <a href="" class="banner-btn">Contacto</a>
+        </section>
+
+        
+        <section class="sobremi" id="sobremi">
+            <h3 class="sobremi-titulo">Sobre Mi</h3>
+            <ul class="sobremi-contenido">
+                <li class="sobremi-izq"></li>
+                <li class="sobremi-der">
+                    <h2>Soy el mata pacos</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci dolore et esse blanditiis ipsum velit voluptas quod in corrupti, error excepturi quia? Laboriosam, debitis. Distinctio corrupti provident officiis et maxime fugiat eos. Atque cupiditate fuga neque eligendi quidem eum impedit! Et, minus maxime enim commodi, repellendus sed eaque mollitia odit incidunt ut cum quam dicta modi iure dolores atque, neque voluptatibus qui quasi. Nesciunt magnam fuga eius. Nostrum optio nihil cumque voluptas. Nihil unde perferendis, aliquid dignissimos laborum magni similique. Alias aut consequatur molestiae, ab neque magnam vitae quas! Cumque sed aperiam modi aliquam necessitatibus ipsum numquam quisquam, omnis quia?</p>
+                    <a href="" class="sobremi-btn">Información</a>
+                </li>
+            </ul>
+
+        </section>
+
+        <section class="perritos" id="perritos">
+            <h3 class="perrritos-titulo">Perritos</h3>
+            <ul class="perritos-contenido">
+                <li>
+                    <i class="fas fa-dog"></i>
+                    <h4>Servicio 1</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maiores ea tempore a, iste architecto minus animi quis ab, dolorum possimus illo nisi debitis pariatur temporibus enim iure repudiandae blanditiis reiciendis ipsam at! Velit deserunt laboriosam officia eos doloremque maiores nesciunt? Corrupti voluptas quo assumenda deserunt magnam amet repellat mollitia expedita vero itaque facilis exercitationem eveniet fuga, provident quam obcaecati vel molestias odio sint dolorem ex consectetur. Reprehenderit nobis cum ullam ratione? Veniam nemo sunt asperiores aliquam facere ratione iure tempore. Dolore excepturi praesentium perspiciatis voluptates, alias autem? Nulla suscipit accusamus excepturi alias totam quibusdam tenetur reiciendis, ullam repellendus.</p>
+                </li>
+                <li>
+                    <i class="fa fa-paw"></i>
+                    <h4>Servicio 2</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maiores ea tempore a, iste architecto minus animi quis ab, dolorum possimus illo nisi debitis pariatur temporibus enim iure repudiandae blanditiis reiciendis ipsam at! Velit deserunt laboriosam officia eos doloremque maiores nesciunt? Corrupti voluptas quo assumenda deserunt magnam amet repellat mollitia expedita vero itaque facilis exercitationem eveniet fuga, provident quam obcaecati vel molestias odio sint dolorem ex consectetur. Reprehenderit nobis cum ullam ratione? Veniam nemo sunt asperiores aliquam facere ratione iure tempore. Dolore excepturi praesentium perspiciatis voluptates, alias autem? Nulla suscipit accusamus excepturi alias totam quibusdam tenetur reiciendis, ullam repellendus.</p>
+                </li>
+                <li>
+                    <i class="fa fa-bone"></i>
+                    <h4>Servicio 3</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora autem maiores ea tempore a, iste architecto minus animi quis ab, dolorum possimus illo nisi debitis pariatur temporibus enim iure repudiandae blanditiis reiciendis ipsam at! Velit deserunt laboriosam officia eos doloremque maiores nesciunt? Corrupti voluptas quo assumenda deserunt magnam amet repellat mollitia expedita vero itaque facilis exercitationem eveniet fuga, provident quam obcaecati vel molestias odio sint dolorem ex consectetur. Reprehenderit nobis cum ullam ratione? Veniam nemo sunt asperiores aliquam facere ratione iure tempore. Dolore excepturi praesentium perspiciatis voluptates, alias autem? Nulla suscipit accusamus excepturi alias totam quibusdam tenetur reiciendis, ullam repellendus.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="contacto" id="contacto">
+            <h3 class="contacto-titulo">Contacto</h3>
+            <ul class="contacto-contenido">
+                <li class="contacto-izq">
+                    <div id="formulario">
+                        <form action="recibo.html" method="POST">
+                    
+                            <label>Nombre del perrito:</label>
+                            <input type="text" name="txtNombre" id="txtNombre">
+                
+                            <label>Nombre del Dueño:</label>
+                            <input type="text" name="txtDueno" id="txtDueno">
+                
+                            <label>Fecha de Nacimiento:</label>
+                            <input type="date" name="txtFecha" id="txtFecha">
+                
+                            <label>Imagen del perrito:</label>
+                            <input type="file" name="txtImagen" id="txtImagen">
+                
+                            <label>Edad del perrito:</label>
+                            <input type="number" name="txtEdad" id="txtEdad">
+                
+                            <label>Contraseña:</label>
+                            <input type="password" name="txtPass" id="txtPass">
+                
+
+                            <input type="submit" name="btnEnviar" id="btnEnviar" class="btn btn-verde">
+                            <input type="reset" name="btnLimpiar" id="btnLimpiar" class="btn btn-rojo">    
+            
+                        </form>  
+                    </div>
+                </li>
+                <li class="contacto-der">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2349.9168337279284!2d-70.57804685026454!3d-33.59792832787374!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x893f58a1479b8f82!2sDuoc%20UC%3A%20Sede%20Puente%20Alto!5e0!3m2!1ses!2scl!4v1617111903307!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </li>
+            </ul>
+        </section>
+        
+        <footer>
+            <p>TODOS LOS DERECHOS RESERVADOS A MIS PERRIS @COPYRIGHT 2021</p>
+        </footer>
+    </div>
+</body>
+</html>
